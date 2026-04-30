@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Fitness | Dodge City, KS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header id="header">
+
+  <a href="#">
+    <img id="header-img" src="https://i.ibb.co/zVJ34Bj3/logo.jpg" alt="Flex Fitness Logo">
+  </a>
+
+  <nav id="nav-bar">
+    <a href="#features" class="nav-link">Features</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#visit" class="nav-link">Who It's For</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+
+</header>
+
+
+<section id="features">
+  <h2>Why Flex Fitness Stands Out</h2>
+
+  <div class="features-container">
+    <div class="feature">24/7 access allowing you to work out anytime</div>
+    <div class="feature">Wide range of equipment for every fitness level</div>
+    <div class="feature">Clean, well-maintained environment</div>
+  </div>
+</section>
+
+
+<section id="about">
+  <h2>Why I Chose Flex Fitness</h2>
+
+  <p>
+    I chose Flex Fitness because it is one of the most accessible gyms in Dodge City. 
+    Being open 24/7 makes it much easier to stay consistent, no matter how busy your schedule is.
+  </p>
+
+  <p>
+    Another reason I like Flex Fitness is the environment. The staff and members help keep the gym 
+    clean and organized, which makes workouts smoother and less stressful. It's welcoming to everyone, 
+    whether you're just starting your fitness journey or have been training for years.
+  </p>
+
+<video id="video" width="560" height="315" controls>
+  <source src="https://raw.githubusercontent.com/sanchondo23/gym-website/main/IMG_3482.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</section>
+
+
+<section id="visit">
+  <h2>Who Should Go to Flex Fitness</h2>
+
+  <p>
+    Flex Fitness is a great choice for anyone looking for a dependable and flexible gym. 
+    Since you're not limited to set hours, it's ideal for people with busy schedules.
+  </p>
+
+  <p>
+    It's also a great option for anyone wanting to improve their health and stay consistent with their workouts.
+  </p>
+
+   <img class="content-img" src="https://i.ibb.co/dwYVzLqz/gym.jpg" alt="Gym Interior">
+
+  <p>
+    <strong>Photo credit:</strong> Flex Fitness / Facebook
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact Flex Fitness</h2>
+
+  <p><strong>Location:</strong> 118 N 14th Ave Suite D, Dodge City, KS 67801</p>
+  <p><strong>Phone:</strong> (620) 471-2041</p>
+  <p><strong>Office Hours:</strong> Monday - Friday 8:00am - 5:00pm</p>
+
+  <p>
+    Visit Flex Fitness to start your fitness journey or maintain your routine with a gym 
+    that works around your schedule!
+  </p>
+</section>
+
+
+<section>
+  <h2>Stay Updated</h2>
+
+  <form id="form" action="https://www.freecodecamp.org/email-submit">
+    <input
+      id="email"
+      name="email"
+      type="email"
+      placeholder="Enter your email address"
+      required>
+
+    <input id="submit" type="submit" value="Email Us">
+  </form>
+</section>
+
+</body>
+</html>
